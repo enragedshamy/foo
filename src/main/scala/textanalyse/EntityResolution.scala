@@ -1,8 +1,8 @@
 package textanalyse
 
-import org.apache.spark.rdd.RDD
 import org.apache.spark.SparkContext
 import org.apache.spark.broadcast.Broadcast
+import org.apache.spark.rdd.RDD
 import textanalyse.Utils.tokenizeString
 
 class EntityResolution(sc: SparkContext, dat1: String, dat2: String, stopwordsFile: String, goldStandardFile: String) {
@@ -169,21 +169,21 @@ object EntityResolution {
   }
 
   def calculateTF_IDF(terms: List[String], idfDictionary: Map[String, Double]): Map[String, Double] = {
-
     /* 
      * Berechnung von TF-IDF Wert für eine Liste von Wörtern
      * Ergebnis ist eine Mapm die auf jedes Wort den zugehörigen TF-IDF-Wert mapped
      */
-
-    ???
+    val size = terms.length
+    var tmp = terms
+      .foldLeft(Map.empty[String, Int])((map, word) => map + (word -> (map.getOrElse(word, 0) + 1)))
+    for (x <- tmp) yield x._1 -> ((x._2.toDouble / size) * idfDictionary.getOrElse(x._1, 0.toDouble))
   }
 
   def calculateDotProduct(v1: Map[String, Double], v2: Map[String, Double]): Double = {
-
     /*
      * Berechnung des Dot-Products von zwei Vectoren
      */
-    ???
+    v1.foldLeft(0.toDouble)((sum, next) => sum + (v2.getOrElse(next._1, 0.toDouble) * next._2))
   }
 
   def calculateNorm(vec: Map[String, Double]): Double = {
@@ -195,12 +195,13 @@ object EntityResolution {
   }
 
   def calculateCosinusSimilarity(doc1: Map[String, Double], doc2: Map[String, Double]): Double = {
-
     /* 
      * Berechnung der Cosinus-Similarity für zwei Vectoren
      */
-
-    ???
+    val sum: Double = 0
+    val scalar_a: Double = 0
+    val scalar_b: Double = 0
+    sum / (scalar_a * scalar_b)
   }
 
   def calculateDocumentSimilarity(doc1: String, doc2: String, idfDictionary: Map[String, Double], stopWords: Set[String]): Double = {

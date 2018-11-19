@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1398f84-7105-419d-97a3-4281cc75525d" name="Default Changelist" comment="" />
+    <list default="true" id="b1398f84-7105-419d-97a3-4281cc75525d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_11_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_11_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_sketch_2_11_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_sketch_2_11_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_sql_2_11_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_sql_2_11_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_tags_2_11_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_tags_2_11_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SimilarityAnalysisAufgabe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SimilarityAnalysisAufgabe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-sources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/similarityanalysisaufgabe-similarityanalysisaufgabe$sources_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/similarityanalysisaufgabe/similarityanalysisaufgabe$sources_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/similarityanalysisaufgabe/similarityanalysisaufgabe$sources_2.11/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/similarityanalysisaufgabe/similarityanalysisaufgabe$sources_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/similarityanalysisaufgabe/similarityanalysisaufgabe$sources_2.11/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -10,6 +40,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -39,10 +73,11 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,23 +94,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="2621" />
+          <entry key="scala" value="3127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="2621" />
+          <entry key="Scala" value="3127" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SimilarityAnalysisAufgabe" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="74" column="19" lean-forward="true" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+            <state relative-caret-position="154">
+              <caret line="185" column="84" selection-start-line="185" selection-start-column="84" selection-end-line="185" selection-end-column="84" />
               <folding>
                 <element signature="e#21#52#0" expanded="true" />
               </folding>
@@ -86,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
+            <state relative-caret-position="120">
+              <caret line="154" column="39" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -107,6 +145,9 @@
       <find>term fre</find>
       <find>idfDict</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -132,68 +173,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SimilarityAnalysisAufgabe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Beleg1_Aufgabe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimilarityAnalysisAufgabe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Beleg1_Aufgabe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimilarityAnalysisAufgabe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Beleg1_Aufgabe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimilarityAnalysisAufgabe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Beleg1_Aufgabe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimilarityAnalysisAufgabe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Beleg1_Aufgabe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimilarityAnalysisAufgabe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Beleg1_Aufgabe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimilarityAnalysisAufgabe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Beleg1_Aufgabe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="textanalyse" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542656212725" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542665801507" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KomponentBasierteEntwicklung/mayk_alex_kbe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -288,31 +273,11 @@
       <workItem from="1542554022006" duration="5712000" />
       <workItem from="1542640229687" duration="1088000" />
       <workItem from="1542645268355" duration="10637000" />
+      <workItem from="1542661573941" duration="4007000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 20h 01m 58s.xml">
-      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 20h 15m 58s.xml">
-      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 20h 17m 37s.xml">
-      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 20h 18m 54s.xml">
-      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 20h 22m 12s.xml">
-      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 20h 26m 26s.xml">
-      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 20h 26m 34s.xml">
-      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 20h 30m 19s.xml">
       <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
     </history-entry>
@@ -322,9 +287,30 @@
     <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 20h 31m 37s.xml">
       <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 22h 08m 50s.xml">
+      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 22h 17m 41s.xml">
+      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 22h 18m 25s.xml">
+      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 22h 24m 56s.xml">
+      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 22h 25m 16s.xml">
+      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 22h 31m 59s.xml">
+      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="getTokensEntityResolutionTest - 2018.11.19 at 23h 07m 02s.xml">
+      <configuration name="getTokensEntityResolutionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19068000" />
+    <option name="totallyTimeSpent" value="23075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -335,12 +321,12 @@
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.32980332" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -372,20 +358,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>terms.foldLeft(Map.empty[String, Double])((map, word) =&gt; map + (word -&gt; map.getOrElse(word, 0)))</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>terms.foldLeft(Map.empty[String, Double])</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>idfDictionary.get(&quot;autocad&quot;)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>new_way</expression-string>
         <language-id>Scala</language-id>
@@ -413,26 +402,6 @@
       </expression>
       <expression>
         <expression-string>corpus_tmp.map(data =&gt; data._2.map(word =&gt; word -&gt; data._1)).flatMap(list =&gt; list).collect()</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>corpus_tmp.map(data =&gt; data._2.map(word =&gt; (word, data._1))).flatMap(list =&gt; list).aggregate(List.empty[(String, List[String])])()</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>tmp.collect()</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>allWords.collect</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>allWords.collect()</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -483,15 +452,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/test/EntityResolutionTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="120">
+          <caret line="154" column="39" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/textanalyse/EntityResolution.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="74" column="19" lean-forward="true" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+        <state relative-caret-position="154">
+          <caret line="185" column="84" selection-start-line="185" selection-start-column="84" selection-end-line="185" selection-end-column="84" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
           </folding>
