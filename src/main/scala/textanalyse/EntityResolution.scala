@@ -87,7 +87,6 @@ class EntityResolution(sc: SparkContext, dat1: String, dat2: String, stopwordsFi
   }
 
   def simpleSimimilarityCalculation: RDD[(String, String, Double)] = {
-
     /*
      * Berechnung der Document-Similarity für alle möglichen
      * Produktkombinationen aus dem amazonRDD und dem googleRDD
@@ -187,29 +186,30 @@ object EntityResolution {
   }
 
   def calculateNorm(vec: Map[String, Double]): Double = {
-
     /*
      * Berechnung der Norm eines Vectors
      */
-    Math.sqrt(((for (el <- vec.values) yield el * el).sum))
+    Math.sqrt((for (el <- vec.values) yield el * el).sum)
   }
 
   def calculateCosinusSimilarity(doc1: Map[String, Double], doc2: Map[String, Double]): Double = {
     /* 
      * Berechnung der Cosinus-Similarity für zwei Vectoren
      */
-    val sum: Double = 0
-    val scalar_a: Double = 0
-    val scalar_b: Double = 0
-    sum / (scalar_a * scalar_b)
+    val sum: Double = doc1.foldLeft(0.toDouble)((sum, element) => sum + element._2 * doc2.getOrElse(element._1, 0.toDouble))
+    val scalar_a: Double = doc1.foldLeft(0.toDouble)((sum, element) => sum + element._2 * element._2)
+    val scalar_b: Double = doc2.foldLeft(0.toDouble)((sum, element) => sum + element._2 * element._2)
+
+    sum / (math.sqrt(scalar_a) * math.sqrt(scalar_b))
   }
 
   def calculateDocumentSimilarity(doc1: String, doc2: String, idfDictionary: Map[String, Double], stopWords: Set[String]): Double = {
-
     /*
      * Berechnung der Document-Similarity für ein Dokument
      */
-    ???
+    val doc_1 = tokenize(doc1, stopWords).map(word => word -> idfDictionary.getOrElse(word, 0.toDouble)).toMap
+    val doc_2 = tokenize(doc2, stopWords).map(word => word -> idfDictionary.getOrElse(word, 0.toDouble)).toMap
+    calculateCosinusSimilarity(doc_1, doc_2)
   }
 
   def computeSimilarityWithBroadcast(record: ((String, String), (String, String)), idfBroadcast: Broadcast[Map[String, Double]], stopWords: Set[String]): (String, String, Double) = {
