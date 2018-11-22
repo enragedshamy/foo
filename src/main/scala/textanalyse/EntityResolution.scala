@@ -3,6 +3,7 @@ package textanalyse
 import org.apache.spark.SparkContext
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.rdd.RDD
+import textanalyse.EntityResolution.computeSimilarity
 import textanalyse.Utils.tokenizeString
 
 class EntityResolution(sc: SparkContext, dat1: String, dat2: String, stopwordsFile: String, goldStandardFile: String) {
@@ -87,26 +88,49 @@ class EntityResolution(sc: SparkContext, dat1: String, dat2: String, stopwordsFi
   }
 
   def simpleSimimilarityCalculation: RDD[(String, String, Double)] = {
+
     /*
      * Berechnung der Document-Similarity für alle möglichen
      * Produktkombinationen aus dem amazonRDD und dem googleRDD
      * Ergebnis ist ein RDD aus Tripeln bei dem an erster Stelle die AmazonID
      * steht, an zweiter die GoogleID und an dritter der Wert
      */
-    ???
+    val _amazonRDD = amazonRDD
+    val _googleRDD = googleRDD
+    val _stopWords = stopWords
+    val _idfDict = idfDict
+    val cartesianRDD = _amazonRDD.cartesian(_googleRDD)
+
+    cartesianRDD.map(x => {
+      computeSimilarity(x, _idfDict, _stopWords)
+    })
   }
 
   def findSimilarity(vendorID1: String, vendorID2: String, sim: RDD[(String, String, Double)]): Double = {
-
     /*
      * Funktion zum Finden des Similarity-Werts für zwei ProduktIDs
      */
-    ???
+    sim
+      .filter(x => {
+        x._1 == vendorID1 && x._2 == vendorID2
+      })
+      .first()
+      ._3
   }
 
   def simpleSimimilarityCalculationWithBroadcast: RDD[(String, String, Double)] = {
 
-    ???
+    val _sc = sc
+    val _amazonRDD = amazonRDD
+    val _googleRDD = googleRDD
+    val _stopWords = stopWords
+    val _idfDict = idfDict
+    val idfBroadcast = sc.broadcast(_idfDict)
+    val cartesianRDD = _amazonRDD.cartesian(_googleRDD)
+
+    cartesianRDD.map(x => {
+      computeSimilarity(x, idfBroadcast, _stopWords)
+    })
   }
 
   /*
@@ -164,7 +188,7 @@ object EntityResolution {
      * Rufen Sie in dieser Funktion calculateDocumentSimilarity auf, in dem 
      * Sie die erforderlichen Parameter extrahieren
      */
-    ???
+    (record._1._1, record._2._1, calculateDocumentSimilarity(record._1._2, record._2._2, idfDictionary, stopWords))
   }
 
   def calculateTF_IDF(terms: List[String], idfDictionary: Map[String, Double]): Map[String, Double] = {
